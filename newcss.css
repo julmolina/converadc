@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color:#8F141B;
+}
+
+h1,h2,h3,p,a {color:  white;}
+
+input[type="text"], textarea {
+    background-color : lightgray;
+    color : #193a1a;
+    width:45px; height:25px; text-align:center; font-size:14pt; }
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 80px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.centrado_a{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(-50%, -50%);
+}
+
+.centrado_b{
+    position: absolute;
+    top: 160px;
+    left: -152px;
+    transform: translate(-50%, -50%);
+}
+
+.centrado_c{
+    position: absolute;
+    top: 210px;
+    left: 190px;
+    transform: translate(-50%, -50%);
+}
+
+.centrado_d{
+    position: absolute;
+    top: 320px;
+    left: 190px;
+    transform: translate(-50%, -50%);
+}
+

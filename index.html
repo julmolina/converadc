@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <div style="position: relative;">
+            <title>SALIDA DECIMAL ADC DE MICROCONTROLADOR</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="newcss.css">
+            <link rel="icon" type="image/x-icon" href="Usco_logo.png">
+            <script type="text/javascript" src="oper.js"></script> 
+        </div>        
+          
+    </head>
+    <body>
+        <div class="contenedor">
+            <img src="https://www.usco.edu.co/imagen-institucional/ocre/universidad-surcolombiana-50.png">
+        </div>
+
+        <div>
+            <h1>CURSO DE APLICACIONES MÓVILES 2022-1</h1>
+            <h2>Programa de Ingeniería Electrónica</h2>
+            <h2>SALIDA DECIMAL ADC DE MICROCONTROLADOR</h2>
+        </div>
+        
+        <div class="contenedor" >
+            <img src="DIAGRAM.png">
+            <div class=centrado >
+                <Form name="MyForm" >   
+                    <div class=centrado_a >
+                        <input style="float: center"
+                        type="text" name="Vf" size="2" ><br><br>
+                    </div>
+                    <div class=centrado_b >
+                        <input style="float: left" 
+                        type="text" name="Vin" size="2" ><br><br>
+                    </div>
+                    <div class=centrado_c >
+                        <input  style="float: center" 
+                        type="text" name="ADCR" size="2" ><br><br>
+                    </div>  
+                    <div class=centrado_d >
+                        <p style= "font-size:25px" ;> <b>Salida Decimal</b> </p>
+                        <p id="Vdecimal" style="color:#193a1a; font-size:30px; border-style: solid; border: 3px solid #193a1a;">--- </p>
+                        <input type="button" class="btn btn-info" value="RESULTADO" onclick="operacion()"><br>
+                    </div>
+                </Form>
+            </div>
+        </div>
+
+        
+        
+    </body>
+</html>
